@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    transition-duration: 2s;
+    transition: 2s all linear ease-out;
+    -webkit-transition: 2s all linear ease-out;
+    -moz-transition: 2s all linear ease-out;
+    -ms-transition: 2s all linear ease-out;
+    -o-transition: 2s all linear ease-out;
+}
+.card:hover{
+    opacity: 0.9;
+    transform:translateY(10px) ;
+    -webkit-transform:translateY(10px) ;
+    -moz-transform:translateY(10px) ;
+    -ms-transform:translateY(10px) ;
+    -o-transform:translateY(10px) ;
+}
+
+.home-page{
+
+    background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+
+}
+
+.heading{
+
+    background: -webkit-linear-gradient(red,rgb(250,160,20));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
